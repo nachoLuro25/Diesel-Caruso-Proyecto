@@ -4,17 +4,23 @@
 
 El proyecto incluye una base de datos SQL completa con registros de ejemplo. La base de datos tallermecanico contiene las siguientes tablas:
 
-### Cliente: Almacena la información de los clientes del taller incluyendo nombre, teléfono y email. Contiene 15 clientes de ejemplo.
+### Cliente: 
+Almacena la información de los clientes del taller incluyendo nombre, teléfono y email. Contiene 15 clientes de ejemplo.
 
-### Vehiculo: Registra los vehículos de los clientes con patente, marca, modelo y relación con el cliente propietario. Cada patente es única. Incluye 15 vehículos de ejemplo.
+### Vehiculo: 
+Registra los vehículos de los clientes con patente, marca, modelo y relación con el cliente propietario. Cada patente es única. Incluye 15 vehículos de ejemplo.
 
-### Empleado: Guarda los datos del personal del taller con nombre y rol (Recepcionista, Mecánico, Administrativo, Jefe de Taller). Contiene 15 empleados de ejemplo.
+### Empleado: 
+Guarda los datos del personal del taller con nombre y rol (Recepcionista, Mecánico, Administrativo, Jefe de Taller). Contiene 15 empleados de ejemplo.
 
-### Turno: Gestiona las citas programadas con información del cliente, vehículo, fecha, hora, motivo y estado (Pendiente, Confirmado, Cancelado, Atendido). Incluye 15 turnos de ejemplo.
+### Turno: 
+Gestiona las citas programadas con información del cliente, vehículo, fecha, hora, motivo y estado (Pendiente, Confirmado, Cancelado, Atendido). Incluye 15 turnos de ejemplo.
 
-### IngresoTaller: Registra cada vez que un vehículo ingresa al taller, con fechas de entrada y salida, motivo del ingreso, trabajos realizados y empleado asignado. Contiene 15 ingresos de ejemplo.
+### IngresoTaller: 
+Registra cada vez que un vehículo ingresa al taller, con fechas de entrada y salida, motivo del ingreso, trabajos realizados y empleado asignado. Contiene 15 ingresos de ejemplo.
 
-### TrabajoRealizado: Detalla los trabajos específicos realizados en cada ingreso al taller, incluyendo descripción, costo y empleado que lo ejecutó. Incluye 15 trabajos de ejemplo.
+### TrabajoRealizado: 
+Detalla los trabajos específicos realizados en cada ingreso al taller, incluyendo descripción, costo y empleado que lo ejecutó. Incluye 15 trabajos de ejemplo.
 
 La base de datos está completamente normalizada con relaciones entre tablas mediante claves foráneas, garantizando la integridad referencial de los datos.
 
